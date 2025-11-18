@@ -12,6 +12,7 @@ policies:
   - path: ../lib/macos/policies/macos-device-health.policies.yml
   - path: ../lib/linux/policies/linux-device-health.policies.yml
   - path: ../lib/windows/policies/all-windows-updates-installed.policies.yml
+  - path: ../lib/macos/policies/dns-resolvers.policies.yml
 queries:
   - path: ../lib/all/queries/collect-usb-devices.queries.yml
   - path: ../lib/all/queries/collect-failed-login-attempts.queries.yml
@@ -22,6 +23,7 @@ controls:
     - path: ../lib/macos/scripts/remove-zoom-artifacts.script.sh
     - path: ../lib/macos/scripts/set-timezone.script.sh
     - path: ../lib/windows/scripts/set-wallpaper.ps1
+    - path: ../lib/macos/scripts/set-dns-cloudflare.sh
   enable_disk_encryption: true
 team_settings:
   webook_settings:
