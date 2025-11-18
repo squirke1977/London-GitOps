@@ -1,2 +1,3 @@
 # This will be the configuration for a custom package on macOS hosts.
 # Documentation: https://fleetdm.com/docs/configuration/yaml-files#packages
+url: https://github.com/northpolesec/santa/releases/download/2025.11/santa-2025.11.pkg
